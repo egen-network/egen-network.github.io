@@ -173,8 +173,16 @@ nav.main a[aria-current="page"] { color: var(--text); border-bottom-color: var(-
 .band a { color: #9fd4d1; }
 .band .btn { background: var(--gold); border-color: var(--gold); color: #10302f; }
 .band .btn:hover { opacity: .9; color: #10302f; }
-.band .btn.ghost { background: transparent; color: #eef3f2; border-color: #4e716f; }
-.band .btn.ghost:hover { background: rgba(255,255,255,.08); color: #eef3f2; }
+.band .btn.ghost {
+  background: rgba(255,255,255,.10);
+  color: #ffffff;
+  border-color: rgba(255,255,255,.55);
+}
+.band .btn.ghost:hover {
+  background: rgba(255,255,255,.20);
+  border-color: #ffffff;
+  color: #ffffff;
+}
 
 .band h1 { max-width: none; }
 .band .lede-wide { max-width: none; }
@@ -512,8 +520,9 @@ ul.compact .meta {
 
 
 /* Year-indexed talk list */
-.kv.talks { gap: .75rem 1.5rem; margin: .75rem 0 0; }
+.kv.talks { gap: .75rem 1.5rem; margin: .75rem 0 3rem; }
 .kv.talks dd { color: var(--text-muted); }
+.kv.talks:last-child { margin-bottom: 0; }
 
 
 /* Inline metadata inside a detail line */
