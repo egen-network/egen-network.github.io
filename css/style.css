@@ -611,3 +611,14 @@ ul.compact .meta {
 }
 .callout.open-call ol, .callout.open-call ul { margin: 0; padding-left: 1.2rem; font-size: .95rem; }
 .callout.open-call li { margin-bottom: .35rem; }
+
+/* ---- "Since the prize" list ---- */
+.stack.since > li { padding-bottom: 1.15rem; }
+.stack.since .label { margin-bottom: .3rem; }
+.stack.since .cohort {
+  font-family: var(--sans); font-size: .68rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--text-faint);
+  font-weight: 600; margin-left: .55rem; white-space: nowrap;
+}
+.stack.since .detail + .detail { margin-top: .4rem; }
+.stack.since .awards { color: var(--gold); }
