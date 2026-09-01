@@ -413,6 +413,10 @@ ol.pubs, ul.pubs { list-style: none; margin: 0; padding: 0; }
 .topics .t-q { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; margin: 0; }
 .topics .t-a { font-size: .92rem; color: var(--text-muted); margin: 0; }
 
+/* Pointer line at the end of a section */
+.more { font-size: .95rem; color: var(--text-muted); margin: 1.25rem 0 0;
+        max-width: var(--measure); }
+
 /* ---------- Cards ---------- */
 .cards { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); }
 .card {
